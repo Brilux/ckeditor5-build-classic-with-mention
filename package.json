@@ -1,5 +1,5 @@
 {
-  "name": "ckeditor5-build-classic-with-mention",
+  "name": "ckeditor5-build-classic-mention",
   "version": "1.0.0",
   "description": "The classic editor build of CKEditor 5 with mention",
   "keywords": [
@@ -66,10 +66,10 @@
   "author": "Brilux, forked from CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/Brilux/ckeditor5-build-classic-with-mention/issues",
+  "bugs": "https://github.com/Brilux/ckeditor5-build-classic-mention/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Brilux/ckeditor5-build-classic-with-mention"
+    "url": "https://github.com/Brilux/ckeditor5-build-classic-mention"
   },
   "scripts": {
     "build": "webpack --mode production",
