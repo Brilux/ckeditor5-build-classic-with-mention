@@ -1,7 +1,7 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
-  "version": "12.4.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "name": "ckeditor5-build-classic",
+  "version": "1.0.0",
+  "description": "The classic editor build of CKEditor 5 with mention",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
@@ -18,7 +18,8 @@
     "collaboration",
     "collaborative",
     "real-time",
-    "framework"
+    "framework",
+	"mention"
   ],
   "main": "./build/ckeditor.js",
   "files": [
@@ -42,6 +43,7 @@
     "@ckeditor/ckeditor5-link": "^11.1.2",
     "@ckeditor/ckeditor5-list": "^12.1.0",
     "@ckeditor/ckeditor5-media-embed": "^11.1.4",
+    "@ckeditor/ckeditor5-mention": "^13.0.0",
     "@ckeditor/ckeditor5-paragraph": "^11.0.5",
     "@ckeditor/ckeditor5-paste-from-office": "^11.1.0",
     "@ckeditor/ckeditor5-table": "^14.0.0",
@@ -61,13 +63,13 @@
     "node": ">=8.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "CKSource (http://cksource.com/)",
+  "author": "Brilux, forked from CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "bugs": "https://github.com/Brilux/ckeditor5-build-classic-with-mention/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
+    "url": "https://github.com/Brilux/ckeditor5-build-classic-with-mention"
   },
   "scripts": {
     "build": "webpack --mode production",
@@ -87,5 +89,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "ckeditor": "^4.12.1"
   }
 }
